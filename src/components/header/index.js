@@ -16,25 +16,25 @@ export default function Header(){
 
                 <div className="ContainerCenter">
                     <div className="element-center">
-                        <input type="text" placeholder="Pesquisar" className="search"/>
+                        <input type="text" placeholder=" Pesquisar" className="search"/>
                     </div>
                     <div className="searchback">
-                        <img src="./img/search.png" className="search-icon" alt="lupinha"/>
+                        <img src="./img/search.png" className="search-icon" alt="lupinha" style={{width: 18, height: 18}}/>
                     </div>
                     <div className="element-center">
-                        <img src="./img/microphone.png"  alt="microfone"/>
+                        <img src="./img/microphone.png"  alt="microfone" style={{width: 19, height: 19}}/>
                     </div>
                 </div>
 
                 <div className="ContainerRight">
                     <div className="element-right camera">
-                        <img src="./img/video-camera.png" alt="camera"/>
+                        <img src="./img/video-camera.png" alt="camera" style={{width: 20, height: 22}}/>
                     </div>
                     <div className="element-right grid">
-                        <img src="./img/grid.png" alt="grid"/>
+                        <img src="./img/grid.png" alt="grid" style={{width: 18.5, height: 18.5}}/>
                     </div>
                     <div className="element-right bell">
-                        <img src="./img/bell.png" alt="bell"/>
+                        <img src="./img/bell.png" alt="bell" style={{width: 24, height: 24}}/>
                     </div>
                     <div className="element-right user"></div>
                 </div>
