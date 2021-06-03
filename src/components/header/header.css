@@ -2,16 +2,12 @@ header{
     width: 100%;
     height: 56px;
     background-color: #ffffff;
+    display: flex;
 }
 
-.logo{
-    position: relative;
-    left: 71px;
-    top: 19px;
-}
-
-.menu{
-    position: relative;
-    top: -4px;
-    left: 27px;
+#user{
+    background-color: rgb(219, 33, 173);
+    width: 32px;
+    height: 32px;
+    border-radius: 100px;
 }
