@@ -7,6 +7,9 @@ header{
     height: 56px;
     background-color: #ffffff;
 }
+.element-left, .element-right, .element-center{
+    cursor: pointer;
+}
 .ContainerTotal,.ContainerLeft,.ContainerRight,.ContainerCenter{
     display: flex;
     height: var(--completo);
@@ -32,6 +35,10 @@ header{
 #teclado{
     position: relative;
     right: 100px;
+    cursor: pointer;
+}
+#teclado:hover{
+    filter: contrast(300%);
 }
 .searchback{
     width: 65px;
@@ -45,6 +52,9 @@ header{
     margin-left: 50%;
     transform: translate(-50%);
     margin-top: 0.8vh;
+}
+.search-icon:hover{
+    filter:brightness(-500%)
 }
 .element-right{
     margin: 13px;
