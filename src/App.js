@@ -5,7 +5,7 @@ export default function App(){
         <div>
             <Header />
             <div className="app">
-                <h1>Filmaria</h1>
+                <h1>Teste</h1>
             </div>
         </div>
     );

@@ -21,17 +21,18 @@ export default function Header(){
                     <div className="searchback">
                         <img src="./img/search.png" className="search-icon" alt="lupinha" style={{width: 18, height: 18}}/>
                     </div>
+                    <img src="./img/keyboard.png" alt="teclado" id="teclado" />
                     <div className="element-center">
-                        <img src="./img/microphone.png"  alt="microfone" style={{width: 19, height: 19}}/>
+                        <img src="./img/microphone.png"  alt="microfone" />
                     </div>
                 </div>
 
                 <div className="ContainerRight">
                     <div className="element-right camera">
-                        <img src="./img/video-camera.png" alt="camera" style={{width: 20, height: 22}}/>
+                        <img src="./img/video-call.png" alt="camera" className="camera"/>
                     </div>
                     <div className="element-right grid">
-                        <img src="./img/grid.png" alt="grid" style={{width: 18.5, height: 18.5}}/>
+                        <img src="./img/grid.png" alt="grid"/>
                     </div>
                     <div className="element-right bell">
                         <img src="./img/bell.png" alt="bell" style={{width: 24, height: 24}}/>

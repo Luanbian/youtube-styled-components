@@ -27,6 +27,11 @@ header{
     width: 570px; 
     height: 26px;
     border: 0.5px solid var(--border-color);
+    font-size: 16px;
+}
+#teclado{
+    position: relative;
+    right: 100px;
 }
 .searchback{
     width: 65px;
@@ -34,7 +39,7 @@ header{
     background-color: #f8f8f8;
     border: 1px solid var(--border-color);
     cursor: pointer;
-    margin-right: 3vh;
+    margin-right: 0vh;
 }
 .search-icon{
     margin-left: 50%;
@@ -42,7 +47,7 @@ header{
     margin-top: 0.8vh;
 }
 .element-right{
-    margin: 15px;
+    margin: 13px;
 }
 .user{
     background-color: rgb(171, 27, 214);
