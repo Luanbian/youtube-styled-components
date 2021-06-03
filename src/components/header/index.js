@@ -15,13 +15,13 @@ export default function Header(){
                 </div>
 
                 <div className="ContainerCenter">
-                    <div className="element-center search">
-                        <input type="text" placeholder="pesquisar" style={{width: 524, height: 24}}/>
+                    <div className="element-center">
+                        <input type="text" placeholder="Pesquisar" className="search"/>
                     </div>
                     <div className="searchback">
                         <img src="./img/search.png" className="search-icon"/>
                     </div>
-                    <div className="element-center microfone">
+                    <div className="element-center">
                         <img src="./img/microphone.png" />
                     </div>
                 </div>
