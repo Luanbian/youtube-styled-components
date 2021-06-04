@@ -1,5 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react';
+import ReactDOM from 'react-dom';
+import './camera.css'
 
 function WarningBanner(props) {
     if (!props.warn) {
@@ -40,5 +41,5 @@ function WarningBanner(props) {
   
   ReactDOM.render(
     <Page />,
-    document.getElementById('root')
+    document.getElementById('camera')
   );
