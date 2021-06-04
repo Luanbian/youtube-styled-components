@@ -1,5 +1,7 @@
+import React from 'react';
 import './header.css';
 import './animahover.css';
+
 
 export default function Header(){  
     return(
@@ -36,7 +38,7 @@ export default function Header(){
                 <div className="ContainerRight">
                     <div className="element-right camera">
                         <span data-tooltip-camera="criar">
-                            <img src="./img/video-call.png" alt="camera" className="camera"/>
+                            <img src="./img/video-call.png" alt="camera" className="camera" id="camera"/>
                         </span>
                     </div>
                     <div className="element-right grid">
