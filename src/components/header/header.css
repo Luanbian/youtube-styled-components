@@ -46,7 +46,7 @@ header{
     background-color: #f8f8f8;
     border: 1px solid var(--border-color);
     cursor: pointer;
-    margin-right: 0vh;
+    margin-right: -1vh;
 }
 .search-icon{
     margin-left: 50%;

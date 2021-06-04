@@ -1,0 +1,40 @@
+[data-tooltip],[data-tooltip-lupa],[data-tooltip-micro],[data-tooltip-camera],[data-tooltip-grid],[data-tooltip-bell]{
+    position: relative;
+    font-weight: normal;
+    font-size: 12px;
+}
+  
+[data-tooltip]:after,[data-tooltip-lupa]:after,[data-tooltip-micro]:after,[data-tooltip-camera]:after,[data-tooltip-grid]:after,[data-tooltip-bell]:after {
+    display: none;
+    position: absolute;
+    top: 15px;
+    padding: 5px;
+    left: calc(100% - 19px);
+    content: attr(data-tooltip);
+    white-space: nowrap;
+    background-color: #4a4a4a;
+    color: White;
+}
+[data-tooltip-lupa]:after, [data-tooltip-micro]:after, [data-tooltip-camera]:after,[data-tooltip-grid]:after,[data-tooltip-bell]:after{
+    top: 38px;
+    left: 1px;
+    content: attr(data-tooltip-lupa);
+    opacity: 70%;
+}
+[data-tooltip-micro]:after{
+    left: -60px;
+    content: attr(data-tooltip-micro);
+}
+[data-tooltip-camera]:after{
+    content: attr(data-tooltip-camera);
+} 
+[data-tooltip-grid]:after{
+    left: -55px;
+    content: attr(data-tooltip-grid);
+}
+[data-tooltip-bell]:after{
+    content: attr(data-tooltip-bell);
+}
+[data-tooltip]:hover:after, [data-tooltip-lupa]:hover:after,[data-tooltip-micro]:hover:after, [data-tooltip-camera]:hover:after,[data-tooltip-grid]:hover:after,[data-tooltip-bell]:hover:after{
+    display: block;
+}
