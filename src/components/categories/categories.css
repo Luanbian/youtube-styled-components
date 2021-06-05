@@ -30,6 +30,10 @@ hr{
 .tudo{
     background-color: #030303;
     color: white;
+    width: 10vh;
+}
+.tudo:hover{
+    opacity: 50%;
 }
 .musica{
     width: 11vh;

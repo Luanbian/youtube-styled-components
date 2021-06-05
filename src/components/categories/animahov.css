@@ -1,0 +1,25 @@
+[data-toolti]{
+    position: relative;
+    font-weight: normal;
+    font-size: 12px;
+}
+[data-toolti]:after{
+    display: none;
+    position: absolute;
+    top: 15px;
+    padding: 5px;
+    left: calc(100% - 19px);
+    white-space: nowrap;
+    background-color: #030303;
+    color: White;
+}
+[data-toolti]:after{
+    top: 38px;
+    left: 60px;
+    content: attr(data-toolti);
+    opacity: 70%;
+}
+[data-toolti]:hover:after{
+    display: block;
+    z-index: 3;
+}
