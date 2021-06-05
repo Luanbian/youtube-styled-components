@@ -62,11 +62,13 @@ export default function categories(){
                         Tecnologia
                     </div>
                 </span>
-                <div className="categoria cdc">
-                    Desenvolvimento Web
+                <div className="categoria dev">
+                    Desev
                 </div>
                 <button className="button"></button>
-                <img src="./img/next.png" className="img"/>  
+                <span data-toolti-btn="Próximo">
+                    <img src="./img/next.png" className="img"/>  
+                </span>
            </div>
            <hr></hr>
         </header>

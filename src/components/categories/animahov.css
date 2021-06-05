@@ -1,9 +1,9 @@
-[data-toolti]{
+[data-toolti],[data-toolti-btn]{
     position: relative;
     font-weight: normal;
     font-size: 12px;
 }
-[data-toolti]:after{
+[data-toolti]:after,[data-toolti-btn]:after{
     display: none;
     position: absolute;
     top: 15px;
@@ -13,13 +13,19 @@
     background-color: #030303;
     color: White;
 }
-[data-toolti]:after{
+[data-toolti]:after,[data-toolti-btn]:after{
     top: 38px;
     left: 60px;
     content: attr(data-toolti);
     opacity: 70%;
 }
-[data-toolti]:hover:after{
+[data-toolti-btn]:after{
+    padding: 9px;
+    opacity: 50%;
+    left: -55px;
+    content: attr(data-toolti-btn);
+}
+[data-toolti]:hover:after,[data-toolti-btn]:hover:after{
     display: block;
     z-index: 3;
 }

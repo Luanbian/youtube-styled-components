@@ -50,8 +50,13 @@ hr{
 .html{
     width: 18vh;
 }
-.tech, .button{
+.tech{
     width: 15vh;
+}
+.dev{
+    position: relative;
+    width: 11vh;
+    right: 0vh;
 }
 .musica:hover, .cdc:hover, .js:hover, .node:hover, .html:hover,.tech:hover, .mixes:hover{
     background-color: #e2e2e2;
@@ -61,14 +66,16 @@ hr{
     background-color: #ffff;
     border: none;
     border-radius: 20px;
-    right: -1vh;
+    right: 1vh;
     height: 8vh;
-    box-shadow:-32px 0 31px #ffff;
+    box-shadow:-32px 0 40px #ffff;
     filter: blur(3px);
+    width: 11vh;
 }
 .img{
     position: absolute;
+    top: -8px;
     width: 15px;
-    right: 6vh;
+    right: 1vh;
     cursor: pointer;
 }
