@@ -37,4 +37,5 @@
 }
 [data-tooltip]:hover:after, [data-tooltip-lupa]:hover:after,[data-tooltip-micro]:hover:after, [data-tooltip-camera]:hover:after,[data-tooltip-grid]:hover:after,[data-tooltip-bell]:hover:after{
     display: block;
+    z-index: 3;
 }

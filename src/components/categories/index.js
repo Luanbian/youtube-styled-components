@@ -42,7 +42,8 @@ export default function categories(){
                 <div className="categoria cdc">
                     Desenvolvimento Web
                 </div>
-                <button> {'>'} </button>
+                <button className="button"></button>
+                <img src="./img/next.png" className="img"/>  
            </div>
            <hr></hr>
         </header>
