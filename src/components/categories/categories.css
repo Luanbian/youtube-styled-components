@@ -1,20 +1,50 @@
+:root{
+    --color-back: #e9e9e9;
+    --color-letter: #666666;
+}
 hr{
     opacity: 40%;
 }
 .CaixaTotal{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-left: 13vh;
 }
 .categoria{
     text-align: center;
     padding-top: 1vh;
     width: 9vh;
-    height: 25px;
-    color: white;
-    background-color: #030303;
+    height: 23px;
+    background-color: var(--color-back);
+    color: var(--color-letter);
+    border: 1px solid rgb(209, 208, 208);
     border-radius: 16px;
     font-size: 14px;
     font-family: Arial, sans-serif;
-    margin-left: 10px;
+    margin-left: 12px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+.tudo{
+    background-color: #030303;
+    color: white;
+}
+.musica{
+    width: 11vh;
+}
+.cdc{
+    width: 30vh;
+}
+.js{
+    width: 14vh;
+}
+.node{
+    width: 12vh;
+}
+.html{
+    width: 18vh;
+}
+.tech{
+    width: 15vh;
 }
