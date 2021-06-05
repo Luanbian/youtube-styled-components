@@ -1,12 +1,7 @@
-* {
-    font-family: sans-serif;
-    margin: 0;
-}
 .warning {
     text-align: center;
-    padding: 7px;
-    font-size: 10pt;
-    color: black;
+    font-size: 9pt;
+    color: white;
 }
 .warning:hover{
     background-color: gray;

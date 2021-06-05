@@ -18,7 +18,6 @@ function WarningBanner(props) {
     </div>
   );
 }
-
 class Page extends React.Component {
   constructor(props) {
     super(props);
@@ -35,7 +34,6 @@ class Page extends React.Component {
   render() {
     return (
       <div>
-          <WarningBanner warn={this.state.showWarning} />
         <a onClick={this.handleToggleClick}>
           {this.state.showWarning 
           ? 
@@ -48,9 +46,12 @@ class Page extends React.Component {
           </span>
           }
         </a>
+          <WarningBanner warn={this.state.showWarning} />
       </div>
+      
     );
   }
 }
-
-ReactDOM.render(<Page></Page>,document.getElementById('camera'));
+ReactDOM.render(
+  <Page/>,document.getElementById('camera')
+)
