@@ -1,7 +1,6 @@
 import React from 'react';
 import './header.css';
 import './animahover.css';
-import './cameraBar';
 
 export default function Header(){  
     return(
