@@ -2,16 +2,19 @@
     font-family: sans-serif;
     margin: 0;
 }
-button {
-    height: 40px;
-    width: 200px;
-}
 .warning {
-    background-color: red;
     text-align: center;
+    padding: 7px;
+    font-size: 10pt;
+    color: black;
+}
+.warning:hover{
+    background-color: gray;
+}
+.position{
     width: 100%;
-    padding: 10px;
-  
-    font-size: 14pt;
-    color: white;
+    background-color: rgb(233, 10, 10);
+    position: relative;
+    left: 8vh;
+    top: 7.5vh;
 }

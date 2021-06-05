@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './header.css';
 import './animahover.css';
 import './cameraBar';
@@ -37,7 +36,7 @@ export default function Header(){
                 </div>
 
                 <div className="ContainerRight">
-                    <div className="element-right camera" id="camera">
+                    <div className="element-right camera" id="camera"> 
                         <span data-tooltip-camera="criar">
                             <img src="./img/video-call.png" alt="camera" className="camera"/>
                         </span>
