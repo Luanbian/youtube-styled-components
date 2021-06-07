@@ -10,7 +10,7 @@
 .inicio{
     margin-top: -9.4vh;
 }
-img{
+.home, .icon{
     padding-top: 2vh;
     padding-left: 4vh;
 }
@@ -22,7 +22,7 @@ p, .pardif{
 .explor{
     margin-left: 3vh;
 }
-.subs{
+.subs,.libs{
     margin-left: 2.4vh;
 }
 p{
