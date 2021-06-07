@@ -4,20 +4,20 @@ import './sidebar.css';
 export default function Sidebar(){
     return(
         <section>
-            <div className="inicio">
-                <img src="./img/home.png" className="home"/>
+            <div className="sidebar inicio">
+                <img src="./img/home.png"/>
                 <p className="pardif"> Início </p>
             </div>
-            <div className="explorar">
-                <img src="./img/explore.png" className="bussola"/>
+            <div className="sidebar">
+                <img src="./img/explore.png"/>
                 <p className="explor"> Explorar </p>
             </div>
-            <div className="explorar">
-                <img src="./img/subscriptions.png" className="bussola"/>
+            <div className="sidebar">
+                <img src="./img/subscriptions.png"/>
                 <p className="subs"> Inscrições </p>
             </div>
-            <div className="explorar">
-                <img src="./img/library.png" className="bussola"/>
+            <div className="sidebar">
+                <img src="./img/library.png"/>
                 <p className="subs"> Biblioteca </p>
             </div>
         </section>
