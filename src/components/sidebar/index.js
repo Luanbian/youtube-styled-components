@@ -12,6 +12,10 @@ export default function Sidebar(){
                 <img src="./img/explore.png" className="bussola"/>
                 <p className="explor"> Explorar </p>
             </div>
+            <div className="explorar">
+                <img src="./img/subscriptions.png" className="bussola"/>
+                <p className="subs"> Inscrições </p>
+            </div>
         </section>
     );
 }
