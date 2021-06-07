@@ -8,6 +8,10 @@ export default function Sidebar(){
                 <img src="./img/home.png" className="home"/>
                 <p className="pardif"> Início </p>
             </div>
+            <div className="explorar">
+                <img src="./img/explore.png" className="bussola"/>
+                <p className="explor"> Explorar </p>
+            </div>
         </section>
     );
 }
