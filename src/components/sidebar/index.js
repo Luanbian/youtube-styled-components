@@ -3,8 +3,11 @@ import './sidebar.css';
 
 export default function Sidebar(){
     return(
-        <div>
-            <h3>Testando</h3>
-        </div>
+        <section>
+            <div className="inicio">
+                <img src="./img/home.png" className="home"/>
+                <p className="pardif"> Início </p>
+            </div>
+        </section>
     );
 }

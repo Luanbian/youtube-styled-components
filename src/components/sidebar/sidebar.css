@@ -1,0 +1,24 @@
+.inicio{
+    margin-left: 0vh;
+    margin-top: -9.4vh;
+    width: 72px;
+    height: 72px;
+    background-color: #ffff;
+    cursor: pointer;
+}
+.inicio:hover{
+    background-color: #f2f2f2;
+}
+.home{
+    padding-top: 2vh;
+    padding-left: 4vh;
+}
+p, .pardif{
+    color: #cc0000;
+    margin-top: 0.5vh;
+    margin-left: 4vh;
+}
+p{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+}
