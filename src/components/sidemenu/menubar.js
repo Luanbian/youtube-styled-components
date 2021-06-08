@@ -5,29 +5,29 @@ import './menubar.css'
 export default props => {
   return (
     <Menu>
-      <a className="menu-item" href="/">
+      <div className="menu-item">
         Home
-      </a>
+      </div>
 
-      <a className="menu-item" href="/laravel">
+      <div className="menu-item">
         Laravel
-      </a>
+      </div>
 
-      <a className="menu-item" href="/angular">
+      <div className="menu-item">
         Angular
-      </a>
+      </div>
 
-      <a className="menu-item" href="/react">
+      <div className="menu-item">
         React
-      </a>
+      </div>
 
-      <a className="menu-item" href="/vue">
+      <div className="menu-item">
         Vue
-      </a>
+      </div>
 
-      <a className="menu-item" href="/node">
+      <div className="menu-item">
         Node
-      </a>
+      </div>
     </Menu>
   );
 };

@@ -5,10 +5,10 @@ import Menubar from './components/sidemenu/menubar';
 export default function App(){
     return(
         <div>
+            <Menubar />
             <Header />
             <Slideshow />
             <Sidebar />
-            <Menubar />
             <div className="app">
             </div>
         </div>

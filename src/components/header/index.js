@@ -8,7 +8,7 @@ export default function Header(){
             <div className="ContainerTotal">
                 <div className="ContainerLeft">
                     <div className="element-left menu">
-                        <img src="./img/menu.png" style={{width: 18, height: 16}} alt="menu" />
+                        <img src="./img/menu.png" style={{visibility: 'hidden'}} alt="menu" />
                     </div>
                     <div className="element-left logo">
                         <span data-tooltip="Página inicial do YouTube">
