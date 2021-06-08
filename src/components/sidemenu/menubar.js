@@ -2,7 +2,7 @@ import React from 'react';
 import { slide as Menu } from 'react-burger-menu';
 import './menubar.css'
 
-export default props => {
+export default function sidemenu() {
   return (
     <Menu>
       <div className="menu-item">
