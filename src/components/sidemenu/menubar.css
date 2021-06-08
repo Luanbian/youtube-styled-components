@@ -42,9 +42,8 @@ html,body {
 }
 
 .bm-cross {
-  color: yellow;
+  background-color: yellow;
 }
-
 
 .bm-menu {
   background: red;
