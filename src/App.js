@@ -5,8 +5,8 @@ import Menubar from './components/sidemenu/menubar';
 export default function App(){
     return(
         <div>
-            <Menubar />
             <Header />
+            <Menubar />
             <Slideshow />
             <Sidebar />
             <div className="app">
