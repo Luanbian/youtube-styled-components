@@ -82,6 +82,12 @@ html,body {
   width: 100%;
   height: 43px;
 }
+
+.homeinit:hover{
+  background-color: #d9d9d9;
+  cursor: pointer;
+}
+
 .elements-init{
   position: relative;
   left: 4vh;
