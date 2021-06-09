@@ -14,15 +14,26 @@ export default function sidemenu() {
       </div>
 
       <div className="menu-item">
-        Laravel
+        <div className="elements-init">
+          <img src="./img/explore.png" />
+          <p className="text init"> Explorar </p>
+        </div>
       </div>
 
       <div className="menu-item">
-        Angular
+        <div className="elements-init">
+          <img src="./img/subscriptions.png" />
+          <p className="text init"> Inscrições </p>
+        </div>
       </div>
 
+      <hr className="hrbar"></hr>
+
       <div className="menu-item">
-        React
+        <div className="elements-init">
+          <img src="./img/library.png" />
+          <p className="text init"> Biblioteca </p>
+        </div>
       </div>
 
       <div className="menu-item">
