@@ -74,6 +74,48 @@ export default function sidemenu() {
       <hr className="hrbar"></hr>
 
       <p className="title"> INSCRIÇÕES </p>
+      {/* Code terceira parte */}
+
+      <hr className="hrbar"></hr>
+
+      <p className="title"> MAIS DO YOUTUBE </p>
+
+      <div className="menu-item">
+        <div className="elements-init">
+          <img src="./img/youtubeprem.png" alt="imagem-youtube-premium"/>
+          <p className="text init"> YouTube Premium </p>
+        </div>
+      </div>
+
+      <div className="menu-item">
+        <div className="elements-init">
+          <img src="./img/filmes.png" alt="imagem-filmes"/>
+          <p className="text init"> Filmes </p>
+        </div>
+      </div>
+
+      <div className="menu-item">
+        <div className="elements-init">
+          <img src="./img/live.png" alt="imagem-ao-vivo"/>
+          <p className="text init"> Ao vivo </p>
+        </div>
+      </div>
+
+      <div className="menu-item">
+        <div className="elements-init">
+          <img src="./img/lamp.png" alt="imagem-lamp"/>
+          <p className="text init"> Aprender </p>
+        </div>
+      </div>
+
+      <div className="menu-item">
+        <div className="elements-init">
+          <img src="./img/trophy.png" alt="imagem-trofeu"/>
+          <p className="text init"> Esportes </p>
+        </div>
+      </div>
+
+      <hr className="hrbar"></hr>
     </Menu>
   );
 };
