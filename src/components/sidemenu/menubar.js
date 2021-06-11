@@ -72,6 +72,8 @@ export default function sidemenu() {
       </div>
 
       <hr className="hrbar"></hr>
+
+      <p className="title"> INSCRIÇÕES </p>
     </Menu>
   );
 };
