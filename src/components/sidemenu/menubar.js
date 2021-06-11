@@ -116,6 +116,36 @@ export default function sidemenu() {
       </div>
 
       <hr className="hrbar"></hr>
+
+      <div className="menu-item">
+        <div className="elements-init">
+          <img src="./img/settings.png" alt="imagem-config"/>
+          <p className="text init"> Configurações </p>
+        </div>
+      </div>
+
+      <div className="menu-item">
+        <div className="elements-init">
+          <img src="./img/flag.png" alt="imagem-flag"/>
+          <p className="text init"> Histórico de denúnci.. </p>
+        </div>
+      </div>
+
+      <div className="menu-item">
+        <div className="elements-init">
+          <img src="./img/help.png" alt="imagem-help"/>
+          <p className="text init"> Ajuda </p>
+        </div>
+      </div>
+
+      <div className="menu-item">
+        <div className="elements-init">
+          <img src="./img/feedback.png" alt="imagem-feedback"/>
+          <p className="text init"> Enviar feedback </p>
+        </div>
+      </div>
+
+      <hr className="hrbar"></hr>
     </Menu>
   );
 };
