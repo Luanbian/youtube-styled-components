@@ -146,6 +146,21 @@ export default function sidemenu() {
       </div>
 
       <hr className="hrbar"></hr>
+      
+      <p className="footer-paragraph">
+        Sobre  Imprensa <br></br>
+        Direitos autorais <br></br>
+        Entre em contato <br></br>
+        Criadores de conteúdo <br></br>
+        Publicidade Desenvolvedores <br></br>
+      </p>
+
+      <p className="footer-paragraph">
+        Termos  Privacidade <br></br>
+        Política e segurança <br></br>
+        Como funciona o YouTube <br></br>
+        Testar os novos recursos <br></br>
+      </p>
     </Menu>
   );
 };
