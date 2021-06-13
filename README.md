@@ -1,2 +1,4 @@
 # youtube-styled-components
- interface do youotube com react.JS
+## interface do youtube com react.JS
+
+Um projeto feito em react.JS para que eu treine meu desenvolvimento front-end
