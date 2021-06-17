@@ -14,13 +14,16 @@ export default function Main() {
                                 {database.time}
                             </div>
                         </div>
-                        <div className="video-title">
-                            {database.imageicon} {database.title}
-                        </div>
                         <div>
+                            {database.imageicon} 
+                            <div className="video-title">
+                                {database.title}
+                            </div>
+                        </div>
+                        <div className="canal-name">
                             {database.name}
                         </div>
-                        <div>
+                        <div className="vistime">
                             {database.vistime}
                         </div>
                     </div>

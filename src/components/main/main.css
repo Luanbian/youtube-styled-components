@@ -1,6 +1,6 @@
 .card{
     position: relative;
-    background-color: gray;
+    top: -100px;
 }
 .card-image{
     width: 284.3px;
@@ -14,7 +14,7 @@
     padding: 4px;
     border-radius: 4px;
     height: 14px;
-    margin: 0px 6px 10px 0px;
+    margin: 0px 6px 90px 0px;
     color: white;
     position: absolute;
     bottom: 0px;
@@ -23,13 +23,29 @@
     font-size: 14px;
 }
 .video-title{
+    margin-left: 55px;
+    margin-top: -30px;
+    margin-bottom: 10px;
     font-weight: 600;
-    color: #fefefe;
+    color: black;
     display: block;
     text-overflow: ellipsis;
     overflow-wrap: break-word;
-    overflow: hidden;
     font-size: 16px;
     max-height: 32px;
     line-height: 16px;
+}
+.card-icon{
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.canal-name, .vistime{
+    color: #606060;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-left: 55px;
 }
