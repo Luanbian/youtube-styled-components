@@ -8,23 +8,20 @@ export default function Main() {
             {database.map(database => (
                 <div>
                     <div className="card">
-                        <div> 
-                            {database.image}{/* Imagem do video */}
+                        <div className="Thumb"> 
+                            {database.image}
+                            <div className="time">
+                                {database.time}
+                            </div>
+                        </div>
+                        <div className="video-title">
+                            {database.imageicon} {database.title}
                         </div>
                         <div>
-                            {/* Tempo do video */}
+                            {database.name}
                         </div>
                         <div>
-                            {/* Titulo do video */}
-                        </div>
-                        <div>
-                            {/* icone do criador do video */}
-                        </div>
-                        <div>
-                            {/* Nome do canal */}
-                        </div>
-                        <div>
-                            {/* Num. de visualizações . Tempo que foi postado */}
+                            {database.vistime}
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,35 @@
+.card{
+    position: relative;
+    background-color: gray;
+}
+.card-image{
+    width: 284.3px;
+    height: 159.5px;
+}
+.thumb{
+    position: relative;
+}
+.time{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 4px;
+    border-radius: 4px;
+    height: 14px;
+    margin: 0px 6px 10px 0px;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.video-title{
+    font-weight: 600;
+    color: #fefefe;
+    display: block;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    font-size: 16px;
+    max-height: 32px;
+    line-height: 16px;
+}
