@@ -82,6 +82,19 @@ html,body {
   top: 1.5vh;
 }
 
+.image-list{
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+}
+
+.nome{
+  color: #030303;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 4.5vh;
+}
+
 .title{
   font-size: 14px;
   font-weight:600;

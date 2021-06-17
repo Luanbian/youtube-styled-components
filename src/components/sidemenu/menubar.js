@@ -1,5 +1,6 @@
 import React from 'react';
 import { slide as Menu } from 'react-burger-menu';
+import Lista from './ArrayInsc'
 import './menubar.css'
 
 export default function sidemenu() {
@@ -74,8 +75,18 @@ export default function sidemenu() {
       <hr className="hrbar"></hr>
 
       <p className="title"> INSCRIÇÕES </p>
-      {/* Code terceira parte */}
 
+      <div className="elements-init">
+        {Lista.map(Lista =>(
+          <>
+            {Lista.image}
+            <div className="text init nome">
+              {Lista.name}
+            </div>
+          </>
+        ))}
+      </div>
+    
       <hr className="hrbar"></hr>
 
       <p className="title"> MAIS DO YOUTUBE </p>
