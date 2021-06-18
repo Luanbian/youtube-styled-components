@@ -78,13 +78,20 @@ export default function sidemenu() {
 
       <div className="elements-init">
         {Lista.map(Lista =>(
-          <>
+          <div className="insc-card">
             {Lista.image}
-            <div className="text init nome">
+            <div className="init nome">
               {Lista.name}
             </div>
-          </>
+          </div>
         ))}
+      </div>
+
+      <div className="menu-item">
+        <div className="elements-init">
+          <img src="./img/arrowDown.png" alt="imagem-arrowdown"/>
+          <p className="text init"> Mostrar mais 16 </p>
+        </div>
       </div>
     
       <hr className="hrbar"></hr>
