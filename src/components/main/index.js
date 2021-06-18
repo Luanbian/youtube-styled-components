@@ -14,7 +14,7 @@ export default function Main() {
                                 {database.time}
                             </div>
                         </div>
-                        <div>
+                        <div className="card-inf">
                             {database.imageicon} 
                             <div className="video-title">
                                 {database.title}
