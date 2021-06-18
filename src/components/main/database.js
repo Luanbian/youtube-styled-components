@@ -1,11 +1,19 @@
 const database = [
   {
-    title: 'Iniciando com Node.JS',
-    image: <img className="card-image" alt="thumb" src="https://greepx.com/wp-content/uploads/2018/01/1515862799_579_lo-fi.jpg"/>,
-    time: '23:45',
+    title: 'O que significa Rocketseat',
+    image: <img className="card-image" alt="thumb" src="./img/thumbrocketseat.jpg"/>,
+    time: '22:23',
     imageicon: <img  className="card-icon" alt="icone-do-canal" src="./img/rocket.jpg" />,
     name: 'Rocketseat',
-    vistime: '6,1 mil visualizações . há 8 meses'
+    vistime: '35,2 mil visualizações . há 9 meses'
+  },
+  {
+    title: 'Respondendo perguntas sobre programação',
+    image: <img className="card-image" alt="thumb" src="./img/felipethumb.jpg"/>,
+    time: '08:12',
+    imageicon: <img  className="card-icon" alt="icone-do-canal" src="./img/iconfilipe.png" />,
+    name: 'Filipe Deschamps',
+    vistime: '55 mil visualizações . há 1 ano'
   },
 ]
   
