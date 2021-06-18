@@ -23,6 +23,14 @@ const database = [
     name: 'Lofi Girl',
     vistime: '5,2 mil visualizações . há 1 ano'
   },
+  {
+    title: 'Curso python #01 - Seja um programador',
+    image: <img className="card-image" alt="thumb" src="./img/gustavothumb.jpg"/>,
+    time: '29:07',
+    imageicon: <img  className="card-icon" alt="icone-do-canal" src="./img/iconcurso.jpg" />,
+    name: 'Curso em vídeo',
+    vistime: '3,8 mil visualizações . há 4 anos'
+  },
 ]
   
 export default database;

@@ -1,7 +1,13 @@
+.main-total{
+    display: flex;
+}
 .card{
     position: relative;
-    top: -100px;
+    top: -200px;
+    left: 30px;
     width: 284.3px;
+    margin: 7px;
+    cursor: pointer;
 }
 .card-image{
     width: 284.3px;
