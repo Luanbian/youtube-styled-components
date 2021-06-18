@@ -1,9 +1,9 @@
 const database = [
   {
     title: 'Iniciando com Node.JS',
-    image: <img className="card-image" src="https://greepx.com/wp-content/uploads/2018/01/1515862799_579_lo-fi.jpg"/>,
+    image: <img className="card-image" alt="thumb" src="https://greepx.com/wp-content/uploads/2018/01/1515862799_579_lo-fi.jpg"/>,
     time: '23:45',
-    imageicon: <img  className="card-icon" src="./img/rocket.jpg" />,
+    imageicon: <img  className="card-icon" alt="icone-do-canal" src="./img/rocket.jpg" />,
     name: 'Rocketseat',
     vistime: '6,1 mil visualizações . há 8 meses'
   },

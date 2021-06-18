@@ -1,6 +1,6 @@
 const Lista = [
     {
-        image: <img src="./img/rocket.jpg" className="image-list" />,
+        image: <img src="./img/rocket.jpg" alt="icone-do-canal-insc" className="image-list" />,
         name: 'Rocketseat'
     }
 ]
