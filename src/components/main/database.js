@@ -31,6 +31,14 @@ const database = [
     name: 'Curso em vídeo',
     vistime: '3,8 mil visualizações . há 4 anos'
   },
+  {
+    title: 'Como escrever HTML 50% mais rápido no VS Code',
+    image: <img className="card-image" alt="thumb" src="./img/thumbcdfd.jpg"/>,
+    time: '07:57',
+    imageicon: <img  className="card-icon" alt="icone-do-canal" src="./img/iconcdf.jpg" />,
+    name: 'Código Fonte TV',
+    vistime: '31,5 mil visualizações . há 1 ano'
+  },
 ]
   
 export default database;

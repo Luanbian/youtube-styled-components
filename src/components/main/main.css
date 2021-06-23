@@ -1,10 +1,11 @@
 .main-total{
     display: flex;
+    flex-wrap: wrap;
 }
 .card{
     position: relative;
     top: -200px;
-    left: 30px;
+    left: 80px;
     width: 284.3px;
     margin: 7px;
     cursor: pointer;
