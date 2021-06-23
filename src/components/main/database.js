@@ -48,7 +48,7 @@ const database = [
     vistime: '259 mil visualizações . há 2 anos'
   },
   {
-    title: 'Asynchronous Javascript in ~10 Minutes',
+    title: 'Asynchronous Javascript',
     image: <img className="card-image" alt="thumb" src="./img/asyncthumb.jpg"/>,
     time: '13:55',
     imageicon: <img  className="card-icon" alt="icone-do-canal" src="./img/iconjames.jpg" />,
@@ -104,7 +104,7 @@ const database = [
     vistime: '1,14 mil visualizações . há 1 ano'
   },
   {
-    title: "Inteligência artificial estacionando carros",
+    title: "IA estacionando carros",
     image: <img className="card-image" alt="thumb" src="./img/unithumb.jpg"/>,
     time: '15:38',
     imageicon: <img  className="card-icon" alt="icone-do-canal" src="./img/uniicon.jpg" />,
