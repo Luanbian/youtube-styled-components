@@ -39,6 +39,31 @@ const database = [
     name: 'Código Fonte TV',
     vistime: '31,5 mil visualizações . há 1 ano'
   },
+  {
+    title: 'Clonando interface do Nubank com React Native',
+    image: <img className="card-image" alt="thumb" src="./img/nubankthumb.jpg"/>,
+    time: '01:13:21',
+    imageicon: <img  className="card-icon" alt="icone-do-canal" src="./img/rocket.jpg" />,
+    name: 'Código Fonte TV',
+    vistime: '259 mil visualizações . há 2 anos'
+  },
+  {
+    title: 'Asynchronous Javascript in ~10 Minutes',
+    image: <img className="card-image" alt="thumb" src="./img/asyncthumb.jpg"/>,
+    time: '13:55',
+    imageicon: <img  className="card-icon" alt="icone-do-canal" src="./img/iconjames.jpg" />,
+    name: 'James Q Quick',
+    vistime: '46,5 mil visualizações . há 7 meses'
+  },
+  {
+    title: 'O que estudar para se tornar dev front-end?',
+    image: <img className="card-image" alt="thumb" src="./img/sujeitothumb.jpg"/>,
+    time: '13:27',
+    imageicon: <img  className="card-icon" alt="icone-do-canal" src="./img/iconsujeito.jfif" />,
+    name: 'Sujeito programador',
+    vistime: '578 visualizações . há 1 dia'
+  },
+  
 ]
   
 export default database;
