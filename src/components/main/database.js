@@ -103,6 +103,30 @@ const database = [
     name: 'Dev Aprender',
     vistime: '1,14 mil visualizações . há 1 ano'
   },
+  {
+    title: "Inteligência artificial estacionando carros",
+    image: <img className="card-image" alt="thumb" src="./img/unithumb.jpg"/>,
+    time: '15:38',
+    imageicon: <img  className="card-icon" alt="icone-do-canal" src="./img/uniicon.jpg" />,
+    name: 'Universo Programado',
+    vistime: '1,69 mil visualizações . há 8 meses'
+  },
+  {
+    title: "A brief history of chess",
+    image: <img className="card-image" alt="thumb" src="./img/chessthumb.jpg"/>,
+    time: '05:40',
+    imageicon: <img  className="card-icon" alt="icone-do-canal" src="./img/iconted.jpg" />,
+    name: 'TED-Ed',
+    vistime: '5,24 mil visualizações . há 2 anos'
+  },
+  {
+    title: "You can learn anything",
+    image: <img className="card-image" alt="thumb" src="./img/khanthumb.jpg"/>,
+    time: '01:31',
+    imageicon: <img  className="card-icon" alt="icone-do-canal" src="./img/khanicon.jpg" />,
+    name: 'Khan academy',
+    vistime: '7,08 mil visualizações . há 7 anos'
+  },
 ]
   
 export default database;
