@@ -15,6 +15,18 @@ const Lista = [
         image: <img src="./img/iconcurso.jpg" alt="icone-do-canal-insc" className="image-list" />,
         name: 'Curso em vídeo'
     },
+    {
+        image: <img src="./img/iconcdf.jpg" alt="icone-do-canal-insc" className="image-list" />,
+        name: 'Código Fonte TV'
+    },
+    {
+        image: <img src="./img/iconjames.jpg" alt="icone-do-canal-insc" className="image-list" />,
+        name: 'James Q Quick'
+    },
+    {
+        image: <img src="./img/iconsujeito.jfif" alt="icone-do-canal-insc" className="image-list" />,
+        name: 'Sujeito Programador'
+    },
 ]
 
 export default Lista;

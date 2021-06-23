@@ -44,7 +44,7 @@ const database = [
     image: <img className="card-image" alt="thumb" src="./img/nubankthumb.jpg"/>,
     time: '01:13:21',
     imageicon: <img  className="card-icon" alt="icone-do-canal" src="./img/rocket.jpg" />,
-    name: 'Código Fonte TV',
+    name: 'Rocketseat',
     vistime: '259 mil visualizações . há 2 anos'
   },
   {
