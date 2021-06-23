@@ -63,7 +63,46 @@ const database = [
     name: 'Sujeito programador',
     vistime: '578 visualizações . há 1 dia'
   },
-  
+  {
+    title: 'Minha carteira de trabalho como dev Júnior',
+    image: <img className="card-image" alt="thumb" src="./img/lucasthumb.jpg"/>,
+    time: '15:01',
+    imageicon: <img  className="card-icon" alt="icone-do-canal" src="./img/iconlucas.jpg" />,
+    name: 'Lucas Montano',
+    vistime: '11,3 mil visualizações . há 1 mês'
+  },
+  {
+    title: 'Como é o verão na Alemanha',
+    image: <img className="card-image" alt="thumb" src="./img/alemanizandothumb.jfif"/>,
+    time: '16:29',
+    imageicon: <img  className="card-icon" alt="icone-do-canal" src="./img/iconalemanizando.png" />,
+    name: 'Alemanizando',
+    vistime: '28,6 mil visualizações . há 8 meses'
+  },
+  {
+    title: 'Curso de C# - Aprenda o essencial em 5 HORAS',
+    image: <img className="card-image" alt="thumb" src="./img/victorthumb.jpg"/>,
+    time: '05:00:01',
+    imageicon: <img  className="card-icon" alt="icone-do-canal" src="./img/iconvictor.jfif" />,
+    name: 'Guia do programador',
+    vistime: '115 mil visualizações . há 9 meses'
+  },
+  {
+    title: "Don't Be A Programmer ",
+    image: <img className="card-image" alt="thumb" src="./img/jomathumb.jpg"/>,
+    time: '03:45',
+    imageicon: <img  className="card-icon" alt="icone-do-canal" src="./img/iconjoma.jpg" />,
+    name: 'Joma Tech',
+    vistime: '2,71 mil visualizações . há 3 anos'
+  },
+  {
+    title: "Recriaram o jogo pedra papel tesoura c/ Python",
+    image: <img className="card-image" alt="thumb" src="./img/devthumb.jpg"/>,
+    time: '30:18',
+    imageicon: <img  className="card-icon" alt="icone-do-canal" src="./img/devicon.jpg" />,
+    name: 'Dev Aprender',
+    vistime: '1,14 mil visualizações . há 1 ano'
+  },
 ]
   
 export default database;
