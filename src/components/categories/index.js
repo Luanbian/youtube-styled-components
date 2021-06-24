@@ -5,7 +5,6 @@ import './animahov.css';
 export default function categories(){
     return(
         <header>
-            <hr></hr>
            <div className="CaixaTotal">
                <span data-toolti="Tudo">
                     <div className="categoria tudo">

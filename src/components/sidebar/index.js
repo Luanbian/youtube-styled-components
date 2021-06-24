@@ -3,7 +3,7 @@ import './sidebar.css';
 
 export default function Sidebar(){
     return(
-        <section>
+        <section className="section">
             <div className="sidebar inicio">
                 <img src="./img/home.png" className="home" alt="home"/>
                 <p className="pardif"> Início </p>

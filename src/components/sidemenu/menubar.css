@@ -1,6 +1,9 @@
 html,body {
   margin: 0;
 }
+body{
+  margin-top: 56px;
+}
 
 #App {
   font-family: sans-serif;
@@ -31,7 +34,7 @@ html,body {
 .bm-menu {
   background: #ffff;
   font-size: 1.15em;
-  width: 224px;
+  width: 234px;
 }
 
 .bm-morph-shape {
@@ -105,7 +108,7 @@ html,body {
   color: #030303;
   font-size: 14px;
   line-height: 20px;
-  margin-left: 9vh;
+  margin-left: 6.5vh;
 }
 
 .title{

@@ -4,7 +4,7 @@ import './animahover.css';
 
 export default function Header(){  
     return(
-        <header>
+        <header className="header">
             <div className="ContainerTotal">
                 <div className="ContainerLeft">
                     <div className="element-left menu">
@@ -53,6 +53,7 @@ export default function Header(){
                     <div className="element-right user"></div>
                 </div>
             </div>
+            <hr></hr>
         </header>
     );
 }

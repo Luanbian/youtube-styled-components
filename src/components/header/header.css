@@ -2,10 +2,16 @@
     --completo: 100%;
     --border-color: #d5d5d5;
 }
-header{
+.header{
     width: var(--completo);
     height: 56px;
-    background-color: #ffffff;
+    background-color: #ffff;
+    position: fixed;
+    top: 0px;
+    z-index:4;
+}
+hr{
+    margin-top: 0px;
 }
 .element-left, .element-right, .element-center{
     cursor: pointer;

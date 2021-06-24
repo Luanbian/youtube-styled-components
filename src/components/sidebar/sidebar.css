@@ -1,3 +1,7 @@
+.section{
+    position: fixed;
+    margin-top: 65px;
+}
 .sidebar{
     width: 72px;
     height: 72px;
