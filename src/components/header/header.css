@@ -71,3 +71,49 @@ hr{
     height: 32px;
     border-radius: 100px;
 }
+
+@media screen and (max-width: 1120px){
+    .search{
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 1005px){
+    .search{
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .search{
+        width: 260px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .search{
+        width: 160px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .search{
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 625px){
+    .ContainerCenter{
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .ContainerCenter{
+        visibility: hidden;
+    }
+    .ContainerRight{
+        position: absolute;
+        right: -25px;
+    }
+}
