@@ -127,6 +127,39 @@ const database = [
     name: 'Khan academy',
     vistime: '7,08 mil visualizações . há 7 anos'
   },
+  {
+    title: "d4-d5 || subindo 400-1800 no chess.com",
+    image: <img className="card-image" alt="thumb" src="./img/contithumb.jpg"/>,
+    time: '10:13',
+    imageicon: <img  className="card-icon" alt="icone-do-canal" src="./img/contiicon.jpg" />,
+    name: 'MN Conti',
+    vistime: '6,3 mil visualizações . há 3 meses'
+  },
+  {
+    title: "Ícones de D&D: Drizzt Do'Urden",
+    image: <img className="card-image" alt="thumb" src="./img/rpgthumb.jpg"/>,
+    time: '01:28:13',
+    imageicon: <img  className="card-icon" alt="icone-do-canal" src="./img/rpgicon.jpg" />,
+    name: 'RPG Planet',
+    vistime: '47,1 mil visualizações . há 1 ano'
+  },
+  {
+    title: "O que é GIT e GITHUB? parte 1/2",
+    image: <img className="card-image" alt="thumb" src="./img/rafathumb.jpg"/>,
+    time: '15:42',
+    imageicon: <img  className="card-icon" alt="icone-do-canal" src="./img/rafaicon.jpg" />,
+    name: 'Rafaella Ballerini',
+    vistime: '62,5 mil visualizações . há 1 ano'
+  },
+  {
+    title: "GIT e GITHUB na prática parte 2/2",
+    image: <img className="card-image" alt="thumb" src="./img/rafa2thumb.jpg"/>,
+    time: '43:24',
+    imageicon: <img  className="card-icon" alt="icone-do-canal" src="./img/rafaicon.jpg" />,
+    name: 'Rafaella Ballerini',
+    vistime: '32,5 mil visualizações . há 1 ano'
+  },
 ]
+
   
 export default database;
