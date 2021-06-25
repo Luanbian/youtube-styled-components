@@ -76,16 +76,16 @@ hr{
     background-color: #ffff;
     border: none;
     border-radius: 20px;
-    right: 15vh;
+    right: 10vh;
     height: 8vh;
     box-shadow:-32px 0 40px #ffff;
     filter: blur(3px);
-    width: 11vh;
+    width: 16vh;
 }
 .img{
-    position: absolute;
-    top: -8px;
-    width: 15px;
-    right: 0vh;
-    cursor: pointer;
+   width: 20px;
+   height: 20px;
+   filter: none;
+   right: 22.5vh;
+   cursor: pointer;
 }

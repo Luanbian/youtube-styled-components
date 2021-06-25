@@ -57,9 +57,7 @@ export default function categories(){
                     </div>
                 </span>
                 <button className="button"></button>
-                <span data-toolti-btn="Próximo">
-                    <img src="./img/next.png" className="img" alt="prox"/>  
-                </span>
+                <img src="./img/next.png" className="button img" alt="prox"/>  
            </div>
            <hr></hr>
         </header>
