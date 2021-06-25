@@ -89,3 +89,9 @@ hr{
    right: 22.5vh;
    cursor: pointer;
 }
+
+@media screen and (max-width: 411px){
+    .CaixaTotal{
+        left: -22px;
+    }
+}
