@@ -56,6 +56,14 @@ export default function categories(){
                         GIT e GitHub
                     </div>
                 </span>
+                <span data-toolti="Tecnologia">
+                    <div className="categoria tech">
+                        Tecnologia
+                    </div>
+                </span>
+                <div className="categoria dev">
+                    Desev
+                </div>
                 <button className="button"></button>
                 <img src="./img/next.png" className="button img" alt="prox"/>  
            </div>
