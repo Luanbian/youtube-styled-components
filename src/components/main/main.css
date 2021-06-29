@@ -61,3 +61,15 @@
     margin-bottom: 5px;
     margin-left: 55px;
 }
+
+@media screen and (max-width: 1210px){
+    .main-total{
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .main-total{
+       margin-left: 50px;
+    }
+}

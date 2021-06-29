@@ -106,11 +106,19 @@ hr{
     .ContainerCenter{
         visibility: hidden;
     }
+    .search-icon{
+        position: absolute;
+        right: -80px;
+        visibility: visible;
+    }
 }
 
 @media screen and (max-width: 500px){
     .ContainerRight{
         position: absolute;
         right: -25px;
+    }
+    .search-icon{
+        right: 145px;   
     }
 }
