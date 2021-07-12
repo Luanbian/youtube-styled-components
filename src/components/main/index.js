@@ -23,7 +23,7 @@ export default function Main() {
                         {database.name}
                     </div>
                     <div className="vistime">
-                        {database.vistime}
+                        {database.vistime}  
                     </div>
                 </div>
             ))}

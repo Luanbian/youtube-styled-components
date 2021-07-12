@@ -8,15 +8,15 @@
 .card{
     position: relative;
     top: -200px;
-    left: 80px;
-    width: 284.3px;
+    left: 65px;
+    width: 265px;
     margin: 7px;
     margin-bottom: 30px;
     cursor: pointer;
 }
 .card-image{
-    width: 284.3px;
-    height: 159.5px;
+    width: 274.3px;
+    height: 149.5px;
 }
 .thumb{
     position: relative;
@@ -36,11 +36,10 @@
 }
 .video-title{
     margin-left: 55px;
-    margin-top: -30px;
+    margin-top: -45px;
     margin-bottom: 10px;
     font-weight: 600;
     color: black;
-    display: block;
     text-overflow: ellipsis;
     overflow-wrap: break-word;
     font-size: 16px;
