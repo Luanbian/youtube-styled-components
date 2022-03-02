@@ -10,3 +10,5 @@ Este projeto é importante para que eu desenvolva minha capacidade de examinar u
 - [x] CSS 
 - [x] Javascript 
 - [x] Node.js
+
+# Se quiser ver o projeto, [clique aqui](https://youtube-styled-components.vercel.app/)
